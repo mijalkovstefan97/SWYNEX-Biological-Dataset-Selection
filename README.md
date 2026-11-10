@@ -61,3 +61,24 @@ The main objectives of a potential analysis of this dataset are:
 The paired study design allows tumor and non-tumor samples from the same patient to be compared, helping to reduce the influence of individual differences.
 
 At this stage, the project focuses on selecting and documenting the dataset. The research question provides a starting point for future analysis.
+
+## 5. Dataset Relevance and Limitations
+
+### Why This Dataset Was Selected
+
+I selected GSE19804 because it provides publicly available gene expression data that can be used to study molecular differences between lung tumor and non-tumor tissues.
+
+One of its main advantages is the paired study design. Each tumor sample has a corresponding non-tumor sample from the same patient, making it possible to compare gene expression while reducing the influence of differences between individuals.
+
+The dataset is also suitable for further bioinformatics analysis using Python, including data exploration, statistical comparisons, and visualization.
+
+### Dataset Limitations
+
+There are several limitations to consider:
+
+- **Study population:** The dataset focuses on women in Taiwan who have never smoked. Therefore, the findings may not apply to all lung cancer patients.
+- **Sample size:** Although the dataset contains 120 tissue samples, these come from 60 patients. Larger and more diverse datasets would be useful for validating future findings.
+- **Microarray technology:** The measurements are based on microarray probe sets, which do not always correspond directly to individual genes. Additional annotation is needed for gene-level analysis.
+- **Interpretation:** Differences in gene expression may be associated with lung cancer, but they do not necessarily indicate that the affected genes cause the disease.
+
+These limitations should be considered when interpreting any future results obtained from this dataset.
