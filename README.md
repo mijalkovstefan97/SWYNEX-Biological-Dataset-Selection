@@ -82,3 +82,25 @@ There are several limitations to consider:
 - **Interpretation:** Differences in gene expression may be associated with lung cancer, but they do not necessarily indicate that the affected genes cause the disease.
 
 These limitations should be considered when interpreting any future results obtained from this dataset.
+
+## 6. Dataset Source and References
+
+### Dataset Source
+
+The GSE19804 dataset is publicly available through the NCBI Gene Expression Omnibus (GEO), a repository for gene expression and other functional genomics data.
+
+The dataset was submitted by researchers from National Taiwan University and is available for research and educational purposes.
+
+- **Dataset:** [GSE19804 — NCBI GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE19804)
+- **Microarray platform:** [GPL570 — Affymetrix Human Genome U133 Plus 2.0 Array](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570)
+- **Processed data:** [GSE19804 Series Matrix files](https://ftp.ncbi.nlm.nih.gov/geo/series/GSE19nnn/GSE19804/matrix/)
+
+### Original Research Publication
+
+Lu, T.-P., et al. (2010). Identification of a novel biomarker, SEMA5A, for non-small cell lung carcinoma in nonsmoking women. *Cancer Epidemiology, Biomarkers & Prevention, 19*(10), 2590–2597.
+
+**DOI:** https://doi.org/10.1158/1055-9965.EPI-10-0332
+
+**PubMed:** https://pubmed.ncbi.nlm.nih.gov/20802022/
+
+The publication provides scientific background for the dataset and describes the comparison of gene expression between lung tumor and matched non-tumor tissues.
