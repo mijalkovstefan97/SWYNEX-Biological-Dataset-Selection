@@ -26,3 +26,20 @@ The study investigates gene expression patterns in lung cancer among women in Ta
 - **Study design:** Paired tumor and non-tumor tissue comparison
 
 **Official dataset URL:** https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE19804
+
+## 3. Dataset Size and Structure
+
+The dataset contains gene expression measurements from 120 lung tissue samples, including 60 tumor samples and 60 matched non-tumor samples.
+
+The processed data was downloaded from NCBI GEO as a compressed Series Matrix file.
+
+- **Processed file:** GSE19804_series_matrix.txt.gz
+- **Compressed file size:** 21.53 MB
+- **Raw data archive:** GSE19804_RAW.tar (602.7 MB)
+- **Expression measurements:** 54,675 probe sets
+- **Sample columns:** 120
+- **Missing values:** 0
+
+Each row represents a microarray probe set, while each sample column contains its corresponding gene expression measurements. A probe set does not necessarily represent a unique gene.
+
+The samples are organized into 60 matched pairs, allowing gene expression levels to be compared between tumor and non-tumor tissues from the same patient.
