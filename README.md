@@ -43,3 +43,21 @@ The processed data was downloaded from NCBI GEO as a compressed Series Matrix fi
 Each row represents a microarray probe set, while each sample column contains its corresponding gene expression measurements. A probe set does not necessarily represent a unique gene.
 
 The samples are organized into 60 matched pairs, allowing gene expression levels to be compared between tumor and non-tumor tissues from the same patient.
+
+## 4. Research Question and Objectives
+
+### Research Question
+
+Which genes show different expression levels between lung tumor tissues and matched non-tumor tissues in women in Taiwan who have never smoked?
+
+### Research Objectives
+
+The main objectives of a potential analysis of this dataset are:
+
+- To compare gene expression levels between 60 tumor samples and their matched non-tumor samples.
+- To identify genes that may show differences in expression between the two tissue types.
+- To explore how these differences could contribute to a better understanding of lung cancer at the molecular level.
+
+The paired study design allows tumor and non-tumor samples from the same patient to be compared, helping to reduce the influence of individual differences.
+
+At this stage, the project focuses on selecting and documenting the dataset. The research question provides a starting point for future analysis.
